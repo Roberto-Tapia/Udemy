@@ -106,4 +106,21 @@ i {
     img {
         max-width: 40vw;
     }
+    .button-container {
+        align-items: flex-start;
+    }
+
+    .button-container > * {
+        margin: 10px 5vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .header-container * {
+        font-size: 16px;
+    }
+    .header-container h1 {
+        font-size: 24px;
+    }
+
 }
